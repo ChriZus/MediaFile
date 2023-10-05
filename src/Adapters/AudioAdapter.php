@@ -1,5 +1,5 @@
 <?php
-namespace wapmorgan\MediaFile\Adapters;
+namespace BergPlaza\MediaFile\Adapters;
 
 /**
  * All audios should contain following information:
