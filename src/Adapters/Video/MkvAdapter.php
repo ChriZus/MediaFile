@@ -1,7 +1,7 @@
 <?php
 namespace BergPlaza\MediaFile\Adapters\Video;
 
-use BergPlaza\MediaFile\Adapters\audio\Containers\MatroskaContainer;
+use BergPlaza\MediaFile\Adapters\Containers\MatroskaContainer;
 use BergPlaza\MediaFile\Adapters\ContainerAdapter;
 use BergPlaza\MediaFile\Adapters\VideoAdapter;
 
