@@ -1,9 +1,9 @@
 <?php
-namespace wapmorgan\MediaFile\Adapters\Audio;
+namespace BergPlaza\MediaFile\Adapters\Audio;
 
 use BoyHagemann\Wave\Wave;
-use wapmorgan\MediaFile\Adapters\AudioAdapter;
-use wapmorgan\MediaFile\Exceptions\FileAccessException;
+use BergPlaza\MediaFile\Adapters\AudioAdapter;
+use BergPlaza\MediaFile\Exceptions\FileAccessException;
 
 class WavAdapter implements AudioAdapter {
     protected $filename;
@@ -15,7 +15,7 @@ class WavAdapter implements AudioAdapter {
      *
      * @param $filename
      *
-     * @throws \wapmorgan\MediaFile\Exceptions\FileAccessException
+     * @throws \BergPlaza\MediaFile\Exceptions\FileAccessException
      */
     public function __construct($filename) {
         if (!file_exists($filename) || !is_readable($filename)) throw new FileAccessException('File "'.$filename.'" is not available for reading!');
