@@ -1,9 +1,9 @@
 <?php
-namespace wapmorgan\MediaFile\Adapters\Audio;
+namespace BergPlaza\MediaFile\Adapters\Audio;
 
-use wapmorgan\MediaFile\Adapters\AudioAdapter;
-use wapmorgan\Mp3Info\Mp3Info;
-use wapmorgan\MediaFile\Exceptions\FileAccessException;
+use BergPlaza\MediaFile\Adapters\AudioAdapter;
+use BergPlaza\Mp3Info\Mp3Info;
+use BergPlaza\MediaFile\Exceptions\FileAccessException;
 
 class Mp3Adapter implements AudioAdapter {
     protected $filename;
@@ -14,7 +14,7 @@ class Mp3Adapter implements AudioAdapter {
      *
      * @param $filename
      *
-     * @throws \wapmorgan\MediaFile\Exceptions\FileAccessException
+     * @throws \BergPlaza\MediaFile\Exceptions\FileAccessException
      * @throws \Exception
      */
     public function __construct($filename) {
