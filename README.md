@@ -1,12 +1,13 @@
+> **Warning**
+>
+> This package waas forked from [wapmorgan/MediaFile](https://github.com/wapmorgan/MediaFile) and adapted for my personal preference and use. I do **not** recommend using this package in your project, but use the 
+> original project [wapmorgan/MediaFile](https://github.com/wapmorgan/MediaFile)
+> 
+
 # MediaFile
 
 Allows you easily get meta information about any media file with unified interface.
 The library has no requirements of external libs or system unitilies.
-
-[![Latest Stable Version](https://poser.pugx.org/wapmorgan/media-file/v/stable)](https://packagist.org/packages/wapmorgan/media-file)
-[![License](https://poser.pugx.org/wapmorgan/media-file/license)](https://packagist.org/packages/wapmorgan/media-file)
-[![Latest Unstable Version](https://poser.pugx.org/wapmorgan/media-file/v/unstable)](https://packagist.org/packages/wapmorgan/media-file)
-[![Tests](https://travis-ci.org/wapmorgan/MediaFile.svg?branch=master)](https://travis-ci.org/wapmorgan/MediaFile)
 
 ## Supported formats
 
@@ -20,14 +21,14 @@ The library has no requirements of external libs or system unitilies.
 
 **Table of contents:**
 1. Usage
-2. API
+2. APIwapmorgan
 3. Why not using getID3?
 4. Technical details
 
 ## Usage
 
 ```php
-use wapmorgan\MediaFile\MediaFile;
+use BergPlaza\MediaFile\MediaFile;
 
 try {
   $media = MediaFile::open('123.mp3');
@@ -57,7 +58,7 @@ try {
 ## API
 ### MediaFile
 
-`wapmorgan\wapmorgan\MediaFile`
+`BergPlaza\MediaFile`
 
 | Method                                   | Description                                                                       | Notes                                                                                                   |
 |------------------------------------------|-----------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
@@ -71,7 +72,7 @@ try {
 
 ### AudioAdapter
 
-`wapmorgan\MediaFile\AudioAdapter`
+`BergPlaza\MediaFile\AudioAdapter`
 
 | Method                         | Description                                                       |
 |--------------------------------|-------------------------------------------------------------------|
@@ -84,7 +85,7 @@ try {
 
 ### VideoAdapter
 
-`wapmorgan\MediaFile\VideoAdapter`
+`BergPlaza\MediaFile\VideoAdapter`
 
 | Method                | Description                                                  |
 |-----------------------|--------------------------------------------------------------|
@@ -95,7 +96,7 @@ try {
 
 ### ContainerAdapter
 
-`wapmorgan\MediaFile\ContainerAdapter`
+`BergPlaza\MediaFile\ContainerAdapter`
 
 | Method                     | Description                                      |
 |----------------------------|--------------------------------------------------|
