@@ -1,5 +1,5 @@
 <?php
-namespace wapmorgan\MediaFile\Adapters;
+namespace BergPlaza\MediaFile\Adapters;
 
 /**
  * Containers should store some basic information about all streams:
