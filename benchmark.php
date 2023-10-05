@@ -1,7 +1,7 @@
 <?php
 
-use wapmorgan\MediaFile\Exceptions\FileAccessException;
-use wapmorgan\MediaFile\MediaFile;
+use BergPlaza\MediaFile\Exceptions\FileAccessException;
+use BergPlaza\MediaFile\MediaFile;
 require __DIR__.'/vendor/autoload.php';
 define('REPEATITIONS', 100);
 
@@ -9,7 +9,7 @@ $files = glob(__DIR__.'/fixtures/{video,audio}/*', GLOB_BRACE);
 
 class_exists('getID3');
 $id3 = new getID3;
-class_exists('wapmorgan\MediaFile\MediaFile');
+class_exists('BergPlaza\MediaFile\MediaFile');
 
 $times = array(
     'mediafile' => array(),
