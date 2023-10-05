@@ -16,7 +16,7 @@ class WmvAdapter extends AsfAdapter implements VideoAdapter {
     protected $framerate;
 
     /**
-     * @throws \wapmorgan\MediaFile\Exceptions\ParsingException
+     * @throws \BergPlaza\MediaFile\Exceptions\ParsingException
      */
     protected function scan() {
         parent::scan();
