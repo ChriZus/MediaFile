@@ -2,7 +2,7 @@
 namespace BergPlaza\MediaFile\Adapters\Audio;
 
 use BergPlaza\MediaFile\Adapters\AudioAdapter;
-use BergPlaza\Mp3Info\Mp3Info;
+use wapmmorgan\Mp3Info\Mp3Info;
 use BergPlaza\MediaFile\Exceptions\FileAccessException;
 
 class Mp3Adapter implements AudioAdapter {
