@@ -1,7 +1,7 @@
 <?php
 namespace BergPlaza\MediaFile\Adapters\Audio;
 
-use BergPlaza\BinaryStream\BinaryStream;
+use wapmorgan\BinaryStream\BinaryStream;
 use BergPlaza\MediaFile\Adapters\AudioAdapter;
 use BergPlaza\MediaFile\Exceptions\FileAccessException;
 
