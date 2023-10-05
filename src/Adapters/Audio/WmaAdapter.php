@@ -1,10 +1,10 @@
 <?php
-namespace wapmorgan\MediaFile\Adapters\Audio;
+namespace BergPlaza\MediaFile\Adapters\Audio;
 
 use wapmorgan\BinaryStream\BinaryStream;
-use wapmorgan\MediaFile\Adapters\Containers\AsfAdapter;
-use wapmorgan\MediaFile\Adapters\AudioAdapter;
-use wapmorgan\MediaFile\Adapters\ContainerAdapter;
+use BergPlaza\MediaFile\Adapters\Containers\AsfAdapter;
+use BergPlaza\MediaFile\Adapters\AudioAdapter;
+use BergPlaza\MediaFile\Adapters\ContainerAdapter;
 
 /**
  * WMA uses ASF as a container
@@ -16,7 +16,7 @@ class WmaAdapter extends AsfAdapter implements AudioAdapter {
     protected $channels;
 
     /**
-     * @throws \wapmorgan\MediaFile\Exceptions\ParsingException
+     * @throws \BergPlaza\MediaFile\Exceptions\ParsingException
      */
     protected function scan() {
         parent::scan();
