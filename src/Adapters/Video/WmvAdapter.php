@@ -1,10 +1,10 @@
 <?php
-namespace wapmorgan\MediaFile\Adapters\Video;
+namespace BergPlaza\MediaFile\Adapters\Video;
 
 use wapmorgan\BinaryStream\BinaryStream;
-use wapmorgan\MediaFile\Adapters\Containers\AsfAdapter;
-use wapmorgan\MediaFile\Adapters\ContainerAdapter;
-use wapmorgan\MediaFile\Adapters\VideoAdapter;
+use BergPlaza\MediaFile\Adapters\Containers\AsfAdapter;
+use BergPlaza\MediaFile\Adapters\ContainerAdapter;
+use BergPlaza\MediaFile\Adapters\VideoAdapter;
 
 /**
  * WMV uses ASF as a container
