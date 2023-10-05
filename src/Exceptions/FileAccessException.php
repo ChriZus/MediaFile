@@ -1,4 +1,4 @@
 <?php
-namespace wapmorgan\MediaFile\Exceptions;
+namespace BergPlaza\MediaFile\Exceptions;
 
 class FileAccessException extends Exception {}
