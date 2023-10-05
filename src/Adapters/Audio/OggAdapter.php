@@ -1,9 +1,9 @@
 <?php
-namespace wapmorgan\MediaFile\Adapters\Audio;
+namespace BergPlaza\MediaFile\Adapters\Audio;
 
-use wapmorgan\BinaryStream\BinaryStream;
-use wapmorgan\MediaFile\Adapters\AudioAdapter;
-use wapmorgan\MediaFile\Exceptions\FileAccessException;
+use BergPlaza\BinaryStream\BinaryStream;
+use BergPlaza\MediaFile\Adapters\AudioAdapter;
+use BergPlaza\MediaFile\Exceptions\FileAccessException;
 
 /**
  * Based on specifications from https://xiph.org/vorbis/doc/Vorbis_I_spec.html
@@ -18,7 +18,7 @@ class OggAdapter implements AudioAdapter {
      *
      * @param $filename
      *
-     * @throws \wapmorgan\MediaFile\Exceptions\FileAccessException
+     * @throws \BergPlaza\MediaFile\Exceptions\FileAccessException
      * @throws \Exception
      */
     public function __construct($filename) {
