@@ -1,10 +1,10 @@
 <?php
-namespace wapmorgan\MediaFile\Adapters\Audio;
+namespace BergPlaza\MediaFile\Adapters\Audio;
 
-use wapmorgan\BinaryStream\BinaryStream;
-use wapmorgan\MediaFile\Adapters\AudioAdapter;
-use wapmorgan\MediaFile\Exceptions\FileAccessException;
-use wapmorgan\MediaFile\Exceptions\ParsingException;
+use BergPlaza\BinaryStream\BinaryStream;
+use BergPlaza\MediaFile\Adapters\AudioAdapter;
+use BergPlaza\MediaFile\Exceptions\FileAccessException;
+use BergPlaza\MediaFile\Exceptions\ParsingException;
 
 /**
  * Based on information from http://hackipedia.org/File%20formats/Containers/AMR,%20Adaptive%20MultiRate/AMR%20format.pdf
