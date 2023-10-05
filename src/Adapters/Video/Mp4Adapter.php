@@ -1,9 +1,9 @@
 <?php
-namespace wapmorgan\MediaFile\Adapters\Video;
+namespace BergPlaza\MediaFile\Adapters\Video;
 
-use wapmorgan\MediaFile\Adapters\Containers\Mpeg4Part12Adapter;
-use wapmorgan\MediaFile\Adapters\ContainerAdapter;
-use wapmorgan\MediaFile\Adapters\VideoAdapter;
+use BergPlaza\MediaFile\Adapters\Containers\Mpeg4Part12Adapter;
+use BergPlaza\MediaFile\Adapters\ContainerAdapter;
+use BergPlaza\MediaFile\Adapters\VideoAdapter;
 
 class Mp4Adapter extends Mpeg4Part12Adapter implements VideoAdapter, ContainerAdapter {
 
