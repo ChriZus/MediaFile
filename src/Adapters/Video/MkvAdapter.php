@@ -1,9 +1,9 @@
 <?php
-namespace wapmorgan\MediaFile\Adapters\Video;
+namespace BergPlaza\MediaFile\Adapters\Video;
 
-use wapmorgan\MediaFile\Adapters\audio\Containers\MatroskaContainer;
-use wapmorgan\MediaFile\Adapters\ContainerAdapter;
-use wapmorgan\MediaFile\Adapters\VideoAdapter;
+use BergPlaza\MediaFile\Adapters\audio\Containers\MatroskaContainer;
+use BergPlaza\MediaFile\Adapters\ContainerAdapter;
+use BergPlaza\MediaFile\Adapters\VideoAdapter;
 
 class MkvAdapter extends MatroskaContainer implements VideoAdapter, ContainerAdapter {
 
