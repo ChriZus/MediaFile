@@ -1,8 +1,8 @@
 <?php
-namespace wapmorgan\MediaFile\Adapters\Audio;
+namespace BergPlaza\MediaFile\Adapters\Audio;
 
-use wapmorgan\MediaFile\Adapters\Containers\Mpeg4Part12Adapter;
-use wapmorgan\MediaFile\Adapters\AudioAdapter;
+use BergPlaza\MediaFile\Adapters\Containers\Mpeg4Part12Adapter;
+use BergPlaza\MediaFile\Adapters\AudioAdapter;
 
 /**
  * Aac uses MPEG 4 Part 12/14 as container.
