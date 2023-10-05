@@ -1,23 +1,23 @@
 <?php
-namespace wapmorgan\MediaFile;
+namespace BergPlaza\MediaFile;
 
-use wapmorgan\FileTypeDetector\Detector;
-use wapmorgan\MediaFile\Adapters\Audio\AacAdapter;
-use wapmorgan\MediaFile\Adapters\Audio\AmrAdapter;
-use wapmorgan\MediaFile\Adapters\Audio\FlacAdapter;
-use wapmorgan\MediaFile\Adapters\Audio\Mp3Adapter;
-use wapmorgan\MediaFile\Adapters\Audio\OggAdapter;
-use wapmorgan\MediaFile\Adapters\Audio\WavAdapter;
-use wapmorgan\MediaFile\Adapters\Audio\WmaAdapter;
-use wapmorgan\MediaFile\Adapters\AudioAdapter;
-use wapmorgan\MediaFile\Adapters\ContainerAdapter;
-use wapmorgan\MediaFile\Adapters\Containers\AsfAdapter;
-use wapmorgan\MediaFile\Adapters\Video\AviAdapter;
-use wapmorgan\MediaFile\Adapters\Video\MkvAdapter;
-use wapmorgan\MediaFile\Adapters\Video\Mp4Adapter;
-use wapmorgan\MediaFile\Adapters\Video\WmvAdapter;
-use wapmorgan\MediaFile\Adapters\VideoAdapter;
-use wapmorgan\MediaFile\Exceptions\FileAccessException;
+use BergPlaza\FileTypeDetector\Detector;
+use BergPlaza\MediaFile\Adapters\Audio\AacAdapter;
+use BergPlaza\MediaFile\Adapters\Audio\AmrAdapter;
+use BergPlaza\MediaFile\Adapters\Audio\FlacAdapter;
+use BergPlaza\MediaFile\Adapters\Audio\Mp3Adapter;
+use BergPlaza\MediaFile\Adapters\Audio\OggAdapter;
+use BergPlaza\MediaFile\Adapters\Audio\WavAdapter;
+use BergPlaza\MediaFile\Adapters\Audio\WmaAdapter;
+use BergPlaza\MediaFile\Adapters\AudioAdapter;
+use BergPlaza\MediaFile\Adapters\ContainerAdapter;
+use BergPlaza\MediaFile\Adapters\Containers\AsfAdapter;
+use BergPlaza\MediaFile\Adapters\Video\AviAdapter;
+use BergPlaza\MediaFile\Adapters\Video\MkvAdapter;
+use BergPlaza\MediaFile\Adapters\Video\Mp4Adapter;
+use BergPlaza\MediaFile\Adapters\Video\WmvAdapter;
+use BergPlaza\MediaFile\Adapters\VideoAdapter;
+use BergPlaza\MediaFile\Exceptions\FileAccessException;
 
 class MediaFile {
     const AUDIO = 'audio';
