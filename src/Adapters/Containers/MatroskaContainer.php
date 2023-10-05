@@ -1,10 +1,10 @@
 <?php
-namespace wapmorgan\MediaFile\Adapters\audio\Containers;
+namespace BergPlaza\MediaFile\Adapters\audio\Containers;
 
 use wapmorgan\BinaryStream\BinaryStream;
-use wapmorgan\MediaFile\Adapters\ContainerAdapter;
-use wapmorgan\MediaFile\Exceptions\FileAccessException;
-use wapmorgan\MediaFile\Exceptions\ParsingException;
+use BergPlaza\MediaFile\Adapters\ContainerAdapter;
+use BergPlaza\MediaFile\Exceptions\FileAccessException;
+use BergPlaza\MediaFile\Exceptions\ParsingException;
 
 /**
  * Based on spcecifications from https://www.matroska.org/technical/specs/index.html
