@@ -1,10 +1,10 @@
 <?php
-namespace wapmorgan\MediaFile\Adapters\Containers;
+namespace BergPlaza\MediaFile\Adapters\Containers;
 
 use wapmorgan\BinaryStream\BinaryStream;
-use wapmorgan\MediaFile\Adapters\ContainerAdapter;
-use wapmorgan\MediaFile\Exceptions\FileAccessException;
-use wapmorgan\MediaFile\Exceptions\ParsingException;
+use BergPlaza\MediaFile\Adapters\ContainerAdapter;
+use BergPlaza\MediaFile\Exceptions\FileAccessException;
+use BergPlaza\MediaFile\Exceptions\ParsingException;
 
 /**
  * WMA and WMV uses ASF as a container
